@@ -61,7 +61,7 @@ public class GuitarNeckViewController {
 	/**
 	 * Sets the chord of the {@code GuitarNeckViewController} class.
 	 *
-	 * @param name the name to be set to the {@code Chord} object
+	 * @param chord the name to be set to the {@code Chord} object
 	 */
 	public void setChord(Chord chord) {
 		this.chord = chord;

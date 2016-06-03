@@ -293,8 +293,6 @@ public class Main extends Application {
 
 	/**
 	 * Creates the saved chords view as a {@code TableView}.
-	 * 
-	 * @throws IOException the exception when application can't find the file specified
 	 */
 	public void createSavedChordsView() {
 		FXMLLoader loader = new FXMLLoader();

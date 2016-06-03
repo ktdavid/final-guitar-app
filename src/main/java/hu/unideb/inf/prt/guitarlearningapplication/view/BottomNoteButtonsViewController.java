@@ -53,15 +53,6 @@ public class BottomNoteButtonsViewController {
 	private ToggleGroup ChordTypes;
 
 	@FXML
-	private Button btnMakeChord;
-
-	@FXML
-	private Button btnSaveChord;
-
-	@FXML
-	private Button btnLoadChord;
-
-	@FXML
 	private TextField tbLowerFretTreshold;
 
 	@FXML
