@@ -192,7 +192,7 @@ public class Main extends Application {
 		FXMLLoader loader = new FXMLLoader();
 
 		try {
-			loader.setLocation(Main.class.getResource("view/RootView.fxml"));
+			loader.setLocation(getClass().getResource("view/RootView.fxml"));
 			this.primaryStage.setTitle("Guitar Learning Application");
 			rootView = (BorderPane) loader.load();
 
